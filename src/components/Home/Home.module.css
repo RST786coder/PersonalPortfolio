@@ -1,0 +1,16 @@
+.home_container {
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+  padding: 100px;
+}
+.home_container .intro_container {
+  background-color: gray;
+  width: 50%;
+}
+.home_container .photo_container {
+  background-color: black;
+  border-radius: 100%;
+  width: 20vw;
+  height: 20vw;
+}/*# sourceMappingURL=Home.module.css.map */

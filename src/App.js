@@ -1,16 +1,14 @@
-import React from "react";
-import Intro from "./components/Intro";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import React from 'react'
+import './App.css'
+import Home from './components/Home/Home'
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <Intro/>
-      <Projects />
-    </>
-  );
-};
+    <div className='appContainer'>
+    {/* <Navbar/> */}
+      <Home/>
+    </div>
+  )
+}
 
-export default App;
+export default App
