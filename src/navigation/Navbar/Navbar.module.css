@@ -1,0 +1,18 @@
+.navbarContainer {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: center;
+}
+.navbarContainer .navList {
+  display: flex;
+}
+.navbarContainer .navList .navListItems {
+  margin-right: 1rem;
+  color: white;
+}
+.navbarContainer .navList .navListItems:hover {
+  cursor: pointer;
+  color: green;
+}/*# sourceMappingURL=Navbar.module.css.map */

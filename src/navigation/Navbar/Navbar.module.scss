@@ -1,0 +1,21 @@
+.navbarContainer {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+
+    .navList {
+        display: flex;
+
+        .navListItems {
+            margin-right: 1rem;
+            color: white;
+
+            &:hover {
+                cursor: pointer;
+                color: green;
+            }
+        }
+    }
+}
